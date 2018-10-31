@@ -3,7 +3,7 @@
 Summary:	Perl module for custom op checking attached to subroutines
 Name:		perl-%{modname}
 Version:	0.008
-Release:	1
+Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
