@@ -12,6 +12,7 @@ BuildRequires:  perl-devel
 BuildRequires:  perl(Module::Build)
 BuildRequires:  perl(ExtUtils::CBuilder)
 BuildRequires:  perl(Test::More)
+BuildRequires:  perl(DynaLoader::Functions)
 Requires:       perl(DynaLoader)
 Requires:       perl(DynaLoader::Functions)
 
