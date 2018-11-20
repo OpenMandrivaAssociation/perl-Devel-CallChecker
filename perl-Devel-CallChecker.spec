@@ -11,6 +11,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/Z/ZE/ZEFRAM/Devel-CallChecker-%{
 BuildRequires:  perl-devel
 BuildRequires:  perl(Module::Build)
 BuildRequires:  perl(ExtUtils::CBuilder)
+BuildRequires:  perl(Test::More)
 Requires:       perl(DynaLoader)
 Requires:       perl(DynaLoader::Functions)
 
