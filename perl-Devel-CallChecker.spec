@@ -10,6 +10,7 @@ Url:		http://search.cpan.org/dist/%{modname}
 Source0:	http://search.cpan.org/CPAN/authors/id/Z/ZE/ZEFRAM/Devel-CallChecker-%{version}.tar.gz
 BuildRequires:  perl-devel
 BuildRequires:  perl(Module::Build)
+BuildRequires:  perl(ExtUtils::CBuilder)
 Requires:       perl(DynaLoader)
 Requires:       perl(DynaLoader::Functions)
 
