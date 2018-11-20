@@ -8,9 +8,13 @@ License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
 Source0:	http://search.cpan.org/CPAN/authors/id/Z/ZE/ZEFRAM/Devel-CallChecker-%{version}.tar.gz
+BuildRequires:  perl-devel
+BuildRequires:  perl(Module::Build)
+Requires:       perl(DynaLoader)
+Requires:       perl(DynaLoader::Functions)
 
 %description
-Perl module for custom op checking attached to subroutines
+Perl module for custom op checking attached to subroutines.
 
 %prep
 %autosetup -p1 -n %{modname}-%{version}
