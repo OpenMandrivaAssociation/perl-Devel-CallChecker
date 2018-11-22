@@ -3,10 +3,10 @@
 Summary:	Perl module for custom op checking attached to subroutines
 Name:		perl-%{modname}
 Version:	0.008
-Release:	2
+Release:	3
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}
+Url:		http://metacpan.org/pod/Devel::CallChecker
 Source0:	http://search.cpan.org/CPAN/authors/id/Z/ZE/ZEFRAM/Devel-CallChecker-%{version}.tar.gz
 BuildRequires:  perl-devel
 BuildRequires:  perl(Module::Build)
