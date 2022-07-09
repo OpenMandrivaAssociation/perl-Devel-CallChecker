@@ -1,4 +1,8 @@
 %define modname	Devel-CallChecker
+%ifarch %{x86_64}
+# FIXME seems to be a bug in the debugpackage generator
+%global _debugsource_template %{nil}
+%endif
 
 Summary:	Perl module for custom op checking attached to subroutines
 Name:		perl-%{modname}
