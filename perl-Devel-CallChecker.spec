@@ -6,8 +6,8 @@
 
 Summary:	Perl module for custom op checking attached to subroutines
 Name:		perl-%{modname}
-Version:	0.008
-Release:	6
+Version:	0.009
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/Devel::CallChecker
