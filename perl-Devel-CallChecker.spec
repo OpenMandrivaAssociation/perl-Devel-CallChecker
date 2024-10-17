@@ -10,7 +10,7 @@ Version:	0.009
 Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Devel::CallChecker
+Url:		https://metacpan.org/pod/Devel::CallChecker
 Source0:	http://search.cpan.org/CPAN/authors/id/Z/ZE/ZEFRAM/Devel-CallChecker-%{version}.tar.gz
 BuildRequires:  perl-devel
 BuildRequires:  perl(Module::Build)
